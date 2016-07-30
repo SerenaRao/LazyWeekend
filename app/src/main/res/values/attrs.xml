@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MenuIcon">
+        <attr name="menu_icon" format="reference" />
+        <attr name="menu_text" format="string" />
+        <attr name="menu_alpha" format="float" />
+        <attr name="menu_enable" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="splash_tip">
+        <item>闭目，难掩喜悦与期待。</item>
+        <item>睁眼，因为你心为所动。</item>
+        <item>启程，只因追寻你所爱。</item>
+        <item>我们，做最了解你的人。</item>
+    </string-array>
+
+    <string-array name="radio_text">
+        <item>为人父母</item>
+        <item>恋爱中/已婚</item>
+        <item>单身生活</item>
+    </string-array>
+
+    <array name="splash_pic">
+        <item>@drawable/pic1</item>
+        <item>@drawable/pic2</item>
+        <item>@drawable/pic3</item>
+        <item>@drawable/pic4</item>
+    </array>
+
+</resources>
