@@ -7,15 +7,17 @@
                 android:clickable="true">
 
     <TextView
-        android:id="@+id/action_back"
+        android:id="@+id/action_left"
         android:layout_width="wrap_content"
         android:layout_height="24dp"
+        android:layout_marginLeft="10dp"
         android:layout_centerVertical="true"/>
 
     <TextView
-        android:id="@+id/action_next"
+        android:id="@+id/action_right"
         android:layout_width="wrap_content"
         android:layout_height="24dp"
+        android:layout_marginRight="10dp"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"/>
 
@@ -31,7 +33,6 @@
         android:textSize="@dimen/action_bar_text_size"/>
 
     <View
-        android:id="@+id/action_under_line"
         android:layout_width="match_parent"
         android:layout_height="0.049999952dp"
         android:layout_alignParentBottom="true"

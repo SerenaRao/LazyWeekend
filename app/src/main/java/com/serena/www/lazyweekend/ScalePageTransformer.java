@@ -14,5 +14,6 @@ public class ScalePageTransformer implements ViewPager.PageTransformer {
     @Override
     public void transformPage(View view, float position) {
        // TODO: 2016/7/29 动画效果还没实现
+
     }
 }

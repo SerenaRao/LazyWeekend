@@ -74,7 +74,6 @@
             android:textSize="16sp"/>
 
         <Button
-            android:id="@+id/test_btn"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:background="@drawable/selector_dark_black_background"

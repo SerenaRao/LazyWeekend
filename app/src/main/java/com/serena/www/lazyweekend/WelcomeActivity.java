@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.serena.www.lazyweekend.base.BaseActivity;
+import com.serena.www.lazyweekend.ui.DrawTextImageView;
 import com.serena.www.lazyweekend.util.ActivityUtil;
 
 import java.util.ArrayList;
@@ -59,7 +60,7 @@ public class WelcomeActivity extends BaseActivity {
         mDirectLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ActivityUtil.startActivity(WelcomeActivity.this, MyInfoActivity.class, true, 0);
+                ActivityUtil.startActivity(WelcomeActivity.this, MyInfoActivity.class, false, 0);
             }
         });
     }
@@ -82,8 +83,8 @@ public class WelcomeActivity extends BaseActivity {
             images.add(imageView);
         }
         mViewpager.setAdapter(new ViewPagerAdapter());
-        mViewpager.setPageTransformer(true, new ScalePageTransformer());
-
+        //mViewpager.setPageTransformer(true,new ScalePageTransformer());
+        //mViewpager.startAnimation(AnimationUtils.loadAnimation(this,R.anim.scale_out_600));
         mViewpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -101,7 +102,6 @@ public class WelcomeActivity extends BaseActivity {
             }
         });
     }
-
     @Override
     protected void onStart() {
         super.onStart();

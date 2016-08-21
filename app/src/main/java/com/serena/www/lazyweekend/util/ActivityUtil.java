@@ -15,5 +15,8 @@ public class ActivityUtil {
     public static void startActivity(Activity activity, Class claz, boolean finish, int delay) {
         Intent intent = new Intent(activity, claz);
         activity.startActivity(intent);
+        if (finish) {
+            activity.finish();
+        }
     }
 }
